@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1397b7f47b284a25a8b84af38f52205d" Name="Diagram1">
+        <EntityTypeShape EntityType="Session1Model.City" Width="1.5" PointX="0.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Session1Model.Clients" Width="1.5" PointX="3" PointY="2.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Session1Model.Employee" Width="1.5" PointX="8" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Session1Model.Order" Width="1.5" PointX="5.25" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Session1Model.Post" Width="1.5" PointX="5.75" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Session1Model.Service" Width="1.5" PointX="7.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="Session1Model.Status" Width="1.5" PointX="3" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Session1Model.Street" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Session1Model.sysdiagrams" Width="1.5" PointX="9.75" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="Session1Model.TypeEntrance" Width="1.5" PointX="5.75" PointY="11.125" IsExpanded="true" />
+        <AssociationConnector Association="Session1Model.FK_Clients_City" ManuallyRouted="false" />
+        <AssociationConnector Association="Session1Model.FK_Clients_Street" ManuallyRouted="false" />
+        <AssociationConnector Association="Session1Model.FK_Order_Clients" ManuallyRouted="false" />
+        <AssociationConnector Association="Session1Model.FK_Employee_Post" ManuallyRouted="false" />
+        <AssociationConnector Association="Session1Model.FK_Employee_TypeEntrance" ManuallyRouted="false" />
+        <AssociationConnector Association="Session1Model.FK_Order_Status" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
